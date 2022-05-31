@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>skins/normal/blue.png</file>
+        <file>skins/normal/cyan.png</file>
+        <file>skins/normal/gray.png</file>
+        <file>skins/normal/green.png</file>
+        <file>skins/normal/holo.png</file>
+        <file>skins/normal/lightgray.png</file>
+        <file>skins/normal/lightgreen.png</file>
+        <file>skins/normal/lightpurple.png</file>
+        <file>skins/normal/lightred.png</file>
+        <file>skins/normal/lime.png</file>
+        <file>skins/normal/magenta.png</file>
+        <file>skins/normal/orange.png</file>
+        <file>skins/normal/pink.png</file>
+        <file>skins/normal/purple.png</file>
+        <file>skins/normal/red.png</file>
+        <file>skins/normal/skyblue.png</file>
+        <file>skins/normal/yellow.png</file>
+        <file>skins/normal/transparent.png</file>
+        <file>TitleStackView.qml</file>
+        <file>SoloGameStackView.qml</file>
+    </qresource>
+</RCC>
