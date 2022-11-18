@@ -36,4 +36,21 @@ Page {
         mainGameManager.gameStart.connect(solo_fieldManager.onGameStart)
         mainGameManager.gameStart.connect(solo_minosManager.onGameStart)
     }
+    Keys.onPressed: (event) => {
+        console.log(event.key);
+        switch(event.key){
+                            case Qt.Key_W:
+                                solo_minosManager._moveNowMino(0, 1);
+                                break;
+                            case Qt.Key_D:
+                                solo_minosManager._moveNowMino(1, 1);
+                                break;
+                            case Qt.Key_S:
+                                solo_minosManager._moveNowMino(2, 1);
+                                break;
+                            case Qt.Key_A:
+                                solo_minosManager._moveNowMino(3, 1);
+                                break;
+                        }
+    }
 }

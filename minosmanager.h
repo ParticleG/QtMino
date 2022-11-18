@@ -3,8 +3,8 @@
 
 #define MOTION_UP 0
 #define MOTION_RIGHT 1
-#define MOTION_DOWN 3
-#define MOTION_LEFT 4
+#define MOTION_DOWN 2
+#define MOTION_LEFT 3
 #define MOTION_CLOCKWISE 5
 #define MOTION_CONTER_CLOCKWISE 6
 #define MOTION_FLIP 7

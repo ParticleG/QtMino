@@ -10,8 +10,8 @@ ApplicationWindow {
     property alias mainGameManager: main_gameManager
     id: main_applicationWindow
     visible: true
-    width: (Qt.platform.os == "windows" || Qt.platform.os == "linux" || Qt.platform.os == "osx") ? 1280 : 720
-    height: (Qt.platform.os == "windows" || Qt.platform.os == "linux" || Qt.platform.os == "osx") ? 720 : 1280
+    width: (Qt.platform.os === "windows" || Qt.platform.os === "linux" || Qt.platform.os === "osx") ? 1280 : 720
+    height: (Qt.platform.os === "windows" || Qt.platform.os === "linux" || Qt.platform.os === "osx") ? 720 : 1280
     title: qsTr("QtMino")
     flags: Qt.Window | Qt.MaximizeUsingFullscreenGeometryHint
 
